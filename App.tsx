@@ -197,7 +197,7 @@ function App() {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
-            Stop Paying for <br/>
+            SEO Growth Engine <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-blue-400 to-purple-400">
               SEO Agencies
             </span>
@@ -205,7 +205,7 @@ function App() {
           
           <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
             The first <strong>Growth Engine</strong> that audits, strategizes, writes content, and fixes code automatically. 
-            Master <strong>Basic, Advanced, AEO & GEO</strong> SEO in minutes.
+            Master <strong>Basic SEO, Advanced SEO, AEO & GEO</strong> in minutes.
           </p>
         </div>
 
