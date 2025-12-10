@@ -3,7 +3,8 @@ import { SYSTEM_INSTRUCTION } from "../constants";
 import { AuditResult, CodeAnalysis, KeywordData, BusinessDetails } from "../types";
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Using the provided key as a fallback if process.env.API_KEY is not set
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'AIzaSyB1iVAhxXUpDsD58lM3J7xMbUvgQfOd4W8' });
 
 const auditSchema: Schema = {
   type: Type.OBJECT,
